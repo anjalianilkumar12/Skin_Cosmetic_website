@@ -1,0 +1,75 @@
+{% extends 'base.html' %} 
+{%load static%}
+
+<html>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%block link%}
+        <link rel='stylesheet' href="{%static 'css/skincare.css'%}">
+   {%endblock%}
+    
+{%block content%}
+<div class='homediv'>
+  
+  <!--img-->
+ <img src="{%static 'image/skin.png'%}" >
+ <a href="{%url 'pro'%}"><input type="submit" value='Shop' class="homebutton"></a>
+</div>
+<div class='div4'>
+  <h3 class='h3'>Shop by Categories</h3>
+  <p  class='p1'>Our products are designed for everyone</p>
+</div>
+<div class='maindiv'>
+ <img src="{%static 'image/skincare.png'%}" class="skinimg">
+ <div class='subdiv'>
+  <div class='thirddiv'>
+  <img src="{%static 'image/bodycare.png'%}" calss="bodyimg">
+  <img src="{%static 'image/makeup.png'%}" class='makeupimg'>
+  </div>
+  <img src="{%static 'image/haircare.png'%}" class="haircareimg">
+</div>
+</div>
+<a href="{%url 'pro'%}"><input type="submit" value='Skin Care' class="skinbutton"></a>
+<a href="{%url 'pro'%}"><input type="submit" value='Body Care' class="bodybutton"></a>
+<a href="{%url 'pro'%}"><input type="submit" value='Make Up' class="makebutton"></a>
+<a href="{%url 'pro'%}"><input type="submit" value='Hair Care' class="hairbutton"></a>
+<div class="div5">
+<h2 class='h5'>Bestsellers</h2>
+</div>
+<div class='overflow-x-scroll bestdiv'>
+
+  <div class="div1">
+    <a href="#" class="a1div1"><img src="{%static 'image/conditiner.png'%}" class="div1img1"></a><br>
+    <a href="#" class="taga1">Shield Conditioner<br> Rs.255</a>
+  </div>
+  <div class="div1">
+    <a href="#" class="a1div1"><img src="{%static 'image/lorealoil.png'%}" class="div1img1"></a><br>
+    <a href="#" class="taga1">Loreal Hair Serum<br>Rs.355</a>
+  </div>
+  <div class="div1">
+    <a href="#" class="a1div1"><img src="{%static 'image/Bodycream.png'%}" class="div1img1"></a><br>
+    <a href="#" class="taga1">Body Cream <br>Rs.450</a>
+  </div>
+  <div class="div1">
+    <a href="#" class="a1div1"><img src="{%static 'image/Bodywash.png'%}" class="div1img1"></a><br>
+    <a href="#" class="taga1">Body Wash<br>Rs.159</a>
+  </div>
+  <div class="div1">
+    <a href="#" class="a1div1"><img src="{%static 'image/face cream.png'%}" class="div1img1"></a><br>
+    <a href="#" class="taga1">Face Cream<br>Rs.267</a>
+  </div>
+  <div class="div1">
+    <a href="#" class="a1div1"><img src="{%static 'image/maccream.png'%}"class="div1img1"></a><br>
+    <a href="#" class="taga1">MAC Cream<br>Rs.1055</a>
+  </div>
+  <div class="div1">
+    <a href="#" class="a1div1"><img src="{%static 'image/facialoil.png'%}" class="div1img1"></a><br>
+    <a href="#" class="taga1">Purified FacialOil<br>Rs.196</a>
+  </div>
+</div>
+<div class="homeuse">
+  <img class="imghome" src="{%static 'image/homeuse.png'%}">
+</div>
+{%endblock%}
+</html>

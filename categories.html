@@ -1,0 +1,21 @@
+{% extends 'base.html' %} 
+{%load static%}
+
+<html>
+    
+    {%block link%}
+        <link rel='stylesheet' href="{%static 'css/skincare.css'%}">
+   {%endblock%}
+{%block content%}
+    <h1 class='cath1'>Shop By Categories</h1>
+    <img src="{%static 'image/cateback.png'%}" class="cateimg">
+<div class='categdiv'>
+{%for i in cat%}
+<div class='catdiv'>
+<p><a class='cata' href='{%url 'cat' i.cat_id%}'>{{i.catname}}</a></p>
+</div>
+{%endfor%}
+</div>
+
+{%endblock%}
+</html>

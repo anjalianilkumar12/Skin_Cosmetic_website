@@ -1,0 +1,45 @@
+{% extends 'base.html' %} 
+{%load static%}
+
+<html>
+    
+    {%block link%}
+        <link rel='stylesheet' href="{%static 'css/skincare.css'%}">
+   {%endblock%}
+{%block content%}
+<h3 class='carthead'>Top Brands</h3>
+<div class='cartdiv'>
+    {%for i in pro%}
+<div class="container py-5">
+    <div class="row">
+      <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+        <div class="card text-black ">
+         
+          <div class="card-body">
+            <div class="text-center mt-1 ">
+                <img src="{{i.product_img}}">
+              <h5 class="card-title catp">{{i.product_name}}</h5>
+            
+              <p class='catp1'>{{i.content}}</p>
+               <p class='catp1'>{{i.price}}</p>
+               <p class='catp1'style="color:purple;font-size:20px;font-weight: 900;">{{i.brand}}</p>
+               <p class='catp1'>{{i.expirydate}}</p>
+                <p class='catp1'>{{i.Category}}</p>
+            </div>
+            <div class="d-flex flex-row">
+              <button type="button" class="btn btn-primary flex-fill me-1 button1" style="background-color:purple;" data-mdb-ripple-color="dark">
+                Add Cart
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+</div>
+
+{%endfor%}
+</div>
+</html>
+{%endblock%}

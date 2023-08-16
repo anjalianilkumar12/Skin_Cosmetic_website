@@ -1,0 +1,311 @@
+.homebutton{
+    position: relative;
+    bottom:120px;
+    left:100px;
+    background-color: purple;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    width:80px;
+    height: 40px;
+    font-family:sans-serif;
+  }
+  .aboutp{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+  }
+  .bodybutton{
+     position: relative;
+     bottom: 450px;
+     left:500px;
+     background-color:white;
+    color: black;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    width:100px;
+    height: 40px;
+    font-family:sans-serif;
+  }
+  .imghome{
+    margin-top: 10px;
+    width:100%;
+  }
+  .bestdiv{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color: white;
+  }
+  .footer{
+    margin-top: 20px;
+  }
+  .taga1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .div1{
+    width:1000px;
+    border-radius: 12px;
+    box-shadow: 5px;
+   margin-left: 25px;
+   margin-top: 50px;
+   
+    background-color:#f0f2f5d6 ;
+}
+  .skinbutton{
+    position: relative;
+    bottom:120px;
+    left:100px;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    width:100px;
+    height: 40px;
+    font-family:sans-serif;
+  }
+  .makebutton{
+    position: relative;
+     bottom: 450px;
+     left:700px;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    width:100px;
+    height: 40px;
+    font-family:sans-serif;
+  }
+  .hairbutton{
+    position: relative;
+     bottom: 100px;
+     left:500px;
+    background-color:white;
+    color:black;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    width:100px;
+    height: 40px;
+    font-family:sans-serif;
+  }
+  .bodybutton:hover ,.skinbutton:hover,.hairbutton:hover,.makebutton:hover{
+    color:white;
+    background-color: black;
+  }
+  .h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+  .div5{
+    text-align: center;
+  }
+  .p1{
+    position: relative;
+    bottom: 50px;
+    color: grey;
+  }
+  .skinimg{
+    margin-left:20px;
+    width:500px;
+    position: relative;
+    bottom:30px;
+  }
+  .bodyimg{
+    position: relative;
+    left:20px;
+  }
+  .maindiv{
+    display:flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top:10px;
+  }
+  .subdiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .thirddiv{
+    display: flex;
+    flex-direction: row;
+   
+  }
+  .div4{
+    text-align: center;
+  }
+  .h3{
+    position: relative;
+    bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+  }
+  .categdiv{
+    background-color: plum;
+  }
+  .catp{
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .catp2{
+    color: purple;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .carthead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: silver;
+  }
+  
+  .catp1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .catdiv{
+    background-color: purple;
+    border-radius: 12px;
+    box-shadow: rebeccapurple;
+    width:500px;
+    height:50px;
+    margin-top: 50px;
+    margin-left: 550px;
+    text-align: center;
+  }
+  .cata{
+    margin-bottom: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  .catdiv:hover{
+    color: white;
+    background-color:black;
+  }
+  .div2{
+      
+      display: flex;
+      flex-direction: column;
+      background-color:transparent;
+      width: 70%;
+      margin-left:80px;
+      text-align: center;
+  }
+  .h1{
+      color: white;
+     position: relative;
+     bottom:20px ;
+     
+  }
+  .contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cath1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .cartdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: plum;
+  }
+  .cateimg{
+    width:100%;
+    height: 400px;
+  }
+  .h4{
+     
+    position: relative;
+    bottom:30px ;
+      color:silver;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+  }
+  .bodycate{
+     background-color:plum;
+  }
+
+  
+  
+  /* Style the navigation bar */
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 90px;
+      background-color:purple;
+    
+  
+      opacity: 0.7;
+    }
+    
+    /* Navbar links */
+    .navbar a {
+      float: left;
+      text-align: center;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+      background-color:transparent;
+      color: black;
+    }
+    
+    /* Current/active navbar link */
+  
+    /* Add a black background color to the top navigation */
+  .topnav {
+  
+      background-color:white;
+      overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color:black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      color:purple;
+      background-color: silver;
+      
+    }
+    .a1{
+      margin-left: 500px;
+      color: black;
+    }
+    .a2{
+      margin-left: 20px;
+      color: black;
+    }
+    .homediv{
+      overflow: hidden;
+    }
+   
+    /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
