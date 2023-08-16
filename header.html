@@ -1,0 +1,29 @@
+{%load static %}
+<html>
+    <head><title>Glowing Pure</title>
+    <link rel='stylesheet' href="{%static 'css/skincare.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <!--first navbar-->
+    <div class="navbar">
+        <a href="#"><i class="fa fa-fw fa-search search"></i> Search</a>
+        <div class='div2'>
+        <a href="{%url 'home'%}"><h1 class="h1">Glowing Pure</h1></a>
+        <h4 class="h4">Natural Organic care.Made for You.</h4>
+        </div>
+        <a href="#"><i class="fa fa-fw fa-user login"></i>Login</a>
+        <a href="#"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i>Cart</a>
+      </div>
+      <!--next navbar-->
+      <div class="topnav  div3">
+        <a class="a1" href="{%url 'home'%}">Home</a>
+        <a class="a2" href="{%url 'pro'%}">Categories</a>
+        <a class="a2" href="{%url 'brand'%}">Brands</a>
+        <a class='a2' href="{%url 'contact'%}">Contact</a>
+        <a class='a2' href="{%url 'about'%}">About</a>
+      </div>
+
+    </body>
+</html>
